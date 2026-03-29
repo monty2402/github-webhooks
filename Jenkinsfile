@@ -1,4 +1,4 @@
-@Library('shared-jenkins-library') _
+// @Library('shared-jenkins-library') _
 
 
 pipeline {
@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Greet') {
             steps {
-                hello()
+                echo "hello monty"
             }
         }
     }
