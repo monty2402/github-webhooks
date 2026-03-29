@@ -1,6 +1,3 @@
-// @Library('shared-jenkins-library') _
-
-
 pipeline {
   
     stages {
